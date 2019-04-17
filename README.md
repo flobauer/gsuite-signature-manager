@@ -17,8 +17,15 @@ You will also need to create,
 
 ### Usage
 
-After setup you can just run the script,
+After setup you can just run the script to render the HTML
 
 ```
-./set-signatures.py
+python render-signatures.py
+```
+
+
+After setup you can just run the script to push the changes to gmail
+
+```
+python set-signatures.py
 ```
