@@ -1,11 +1,57 @@
-<p>
-    Best regards,
-</p>
-
-<p>
-	{{name}}{{^name}}[NAME]{{/name}}<br>
-  {{title}}{{^title}}[TITLE]{{/title}}<br>
-  {{email}}{{^email}}[EMAIL]{{/email}}<br>
-  {{tel}}{{^tel}}[TEL]{{/tel}}<br>
-	{{telnice}}{{^telnice}}[telnice]{{/telnice}}<br>
-</p>
+<table border="0" cellpadding="0" cellspacing="0" width="500">
+    <tbody>
+      <tr>
+        <td height="44" style="font-family:Trebuchet MS, Arial, sans-serif; font-size:13px; font-style:bold;">
+          <strong>{{name}}{{^name}}[NAME]{{/name}}</strong>
+          <br>
+          <em style="font-size:12px; font-weight:400;">{{title}}{{^title}}[TITLE]{{/title}}</em>
+        </td>
+      </tr>
+      <tr>
+        <td class="hover" height="32" style="font-family:Trebuchet MS, Arial, sans-serif; font-size:11px;">
+          <label style=" color:#4d4d4e;">tel:</label>
+          <a href="tel:{{tel}}{{^tel}}[TEL]{{/tel}}" onMouseOver="this.style.color='#33C4D0'" onMouseOut="this.style.color='#06A2C7'" style="color:#06A2C7;">{{telnice}}{{^telnice}}[TELNICE]{{/telnice}}</a>
+          <br>
+          <label style=" color:#4d4d4e;">mail:</label>
+          <a href="mailto:{{email}}{{^email}}[EMAIL]{{/email}}" onMouseOver="this.style.color='#33C4D0'" onMouseOut="this.style.color='#06A2C7'" style="color:#06A2C7;">{{email}}{{^email}}[EMAIL]{{/email}}</a>
+          <br>
+          
+        </td>
+      </tr>
+      <tr>
+        <td height="48" style="font-family:Trebuchet MS, Arial, sans-serif; font-size:11px; color:#4d4d4e;">
+          TechGate (6th floor)<br/> Donau-City-Straße 1, 1220 Vienna (AT)
+        </td>
+      </tr>
+      <tr>
+        <td border="0" cellpadding="0" cellspacing="0" height="38" width="164">
+          <img width="164" src="https://www.moonvision.io/press/rgb_black.png" alt="Moonvision Logo">
+        </td>
+      </tr>
+      <tr>
+        <td height="45" style="font-family:Trebuchet MS, Arial, sans-serif; font-size:11px; color:#4d4d4e;">
+          Read our latest Blog Article: <br/>
+          <a href="https://medium.com/moonvision/onnx-the-long-and-collaborative-road-to-machine-learning-portability-a6416a96e870" target="_blank" style="color:#06A2C7;">ONNX: the long and collaborative road to machine learning portability</a>
+        </td>
+      </tr>
+      <tr>
+        <td height="34">
+          <a href="https://www.linkedin.com/company/moonvision" target="_blank"><img src="https://moonvision.io/img/email_icon/li.gif" alt="LinkedIn Icon"></a>
+          <a href="https://www.facebook.com/moonvision.io" target="_blank"><img src="https://moonvision.io/img/email_icon/md.gif" alt="Medium Icon"></a>
+          <a href="https://www.youtube.com/channel/UC73h633WcuUCdAmJDW-zymg" target="_blank"><img src="https://moonvision.io/img/email_icon/yt.gif" alt="Youtube Icon"></a>
+          <a href="https://www.facebook.com/moonvision.io" target="_blank"><img src="https://moonvision.io/img/email_icon/fb.gif" alt="Facebook Icon"></a>
+          
+        </td>
+      </tr>
+      <tr>
+        <td height="20" style="font-family:Trebuchet MS, Arial, sans-serif; font-size:11px;">
+          <a href="https://moonvision.io" target="_blank" style="color:#06A2C7;">www.moonvision.io</a>
+        </td>
+      </tr>
+      <tr>
+        <td height="50">
+          <small style="font-family:Trebuchet MS, Arial, sans-serif; font-size:8px; color:#4d4d4e;">Confidentiality Notice: This e-mail message, including any attachments, is for the sole use of the intended recipient(s) and may contain confidential and privileged information. Any unauthorized review, use, disclosure or distribution of this information is prohibited, and may be punishable by law. If this was sent to you in error, please notify the sender by reply e-mail and destroy all copies of the original message. Please consider the environment before printing this e-mail.</small>
+        </td>
+      </tr>
+    </tbody>
+  </table>
